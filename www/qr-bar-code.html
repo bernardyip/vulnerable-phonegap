@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+        <title>Vulnerable App</title>
+    </head>
+    <body>
+        <script type="text/javascript" src="cordova.js"></script>
+		<script type="text/javascript">
+			function scan() {
+				cordova.plugins.barcodeScanner.scan(
+					function (result) {
+						document.getElementById("data").innerHTML = result.text;
+					},
+					function (error) {
+						alert("Scanning failed: " + error);
+					}
+				);
+			}
+		</script>
+		<h1> QR/Bar Code </h1>
+		<button onclick="scan();"> Scan </button>
+		<p id="data"></p>
+    </body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+        <title>Vulnerable App</title>
+    </head>
+    <body>
+        <script type="text/javascript" src="cordova.js"></script>
+		<script type="text/javascript">
+			// display the address information for all contacts
+			function onSuccess(contacts) {
+				var contactList = "";
+				for (var i = 0; i < contacts.length; i++) {
+					contactList += contacts[i].displayName + "<br />";
+				}
+				document.getElementById("text").innerHTML = contactList;
+			};
+
+			function onError(contactError) {
+				alert('onError!');
+			};
+
+			function find() {
+				var options      = new ContactFindOptions();
+				options.filter   = document.getElementById("search").value;
+				options.multiple = true;
+				var fields       = [navigator.contacts.fieldType.displayName];
+				navigator.contacts.find(fields, onSuccess, onError, options);
+			}
+		</script>
+		<h1> Contacts </h1>
+		<input type="text" id="search" />
+		<button onclick="find()">Find Contact</button>
+		<p id="text"></p>
+    </body>
+</html>

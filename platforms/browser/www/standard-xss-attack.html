@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+        <title>Vulnerable App</title>
+		<script type="text/javascript">
+			function submitEntry() {
+				var data = document.getElementById("entry").value;
+				document.getElementById("entries").innerHTML = data;
+			}
+			
+			function loadXSS() {
+				document.getElementById("entry").value = "<img src=x onerror=\"alert('XSS Attack')\">";
+			}
+		</script>
+    </head>
+    <body>
+        <script type="text/javascript" src="cordova.js"></script>
+		
+		<h1> Standard XSS Attack </h1>
+		<form onsubmit="return false;">
+			<div> Guestbook Entry: </div>
+			<input id="entry" type="text" />
+			<input type="button" value="Load XSS" onclick="loadXSS();" />
+			<input type="submit" onclick="submitEntry();"/>
+		</form>
+		
+		<h1>Entries</h1>
+		<p id="entries"></p>
+    </body>
+</html>
