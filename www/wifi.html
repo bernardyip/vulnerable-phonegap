@@ -7,22 +7,20 @@
     </head>
     <body>
         <script type="text/javascript" src="cordova.js"></script>
-		<script src="http://192.168.1.101:8080/target/target-script-min.js#anonymous"></script>
-		<script type="text/javascript" src="WifiWizard.js"></script>
 		<script type="text/javascript">
-			function success(s) {
+			function ssidHandler(s) {
 				alert("Current SSID"+s);
 			}
 
 			function fail(e) {
 				alert("Failed"+e);
 			}
-		
-			function getScanResult() {
-				cordova.plugins.hotspot.getNetConfig(success, fail);
+
+			function getCurrentSSID() {
+				WifiWizard.getCurrentSSID(ssidHandler, fail);
 			}
 		</script>
 		<h1> Wifi </h1>
-		<button onclick="getScanResult()">Get Scan result</button> 
+		<button onclick="getCurrentSSID()">Get Scan result</button> 
     </body>
 </html>

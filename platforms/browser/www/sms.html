@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+        <title>Vulnerable App</title>
+    </head>
+    <body>
+        <script type="text/javascript" src="cordova.js"></script>
+		<script type="text/javascript">
+			function receive() {
+				SmsReceiver.startReception(({messageBody, originatingAddress}) => {
+				  alert(messageBody);
+				}, () => {
+				  alert("Error while receiving messages");
+				});
+			}
+		</script>
+		<h1> SMS </h1>
+		<button onclick="receive()">Wait for 2FA</button>
+		<p id="text"></p>
+    </body>
+</html>

@@ -1,11 +1,11 @@
 {
   "background_color": "#FFF",
   "display": "standalone",
-  "name": "helloworld",
-  "short_name": "helloworld",
+  "name": "Vulnerable Phonegap",
+  "short_name": "Vulnerable Phonegap",
   "version": "com.phonegap.helloworld",
-  "description": "Hello World sample application that responds to the deviceready event.",
-  "author": "PhoneGap Team",
+  "description": "Phonegap app that is vulnerable to xss",
+  "author": "CS5231 Team",
   "icons": [],
   "start_url": "index.html"
 }

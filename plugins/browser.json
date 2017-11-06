@@ -7,51 +7,27 @@
     "files": {}
   },
   "installed_plugins": {
-    "cordova-plugin-battery-status": {
+    "cordova-plugin-contacts": {
       "PACKAGE_NAME": "com.phonegap.helloworld"
     },
-    "cordova-plugin-camera": {
-      "PACKAGE_NAME": "com.phonegap.helloworld"
-    },
-    "cordova-plugin-device": {
-      "PACKAGE_NAME": "com.phonegap.helloworld"
-    },
-    "cordova-plugin-dialogs": {
-      "PACKAGE_NAME": "com.phonegap.helloworld"
-    },
-    "cordova-plugin-geolocation": {
-      "PACKAGE_NAME": "com.phonegap.helloworld"
-    },
-    "cordova-plugin-globalization": {
+    "cordova-plugin-file": {
       "PACKAGE_NAME": "com.phonegap.helloworld"
     },
     "cordova-plugin-inappbrowser": {
       "PACKAGE_NAME": "com.phonegap.helloworld"
     },
-    "cordova-plugin-media-capture": {
-      "PACKAGE_NAME": "com.phonegap.helloworld"
-    },
-    "cordova-plugin-network-information": {
-      "PACKAGE_NAME": "com.phonegap.helloworld"
-    },
-    "cordova-plugin-vibration": {
+    "cordova-plugin-qrscanner": {
       "PACKAGE_NAME": "com.phonegap.helloworld"
     },
     "phonegap-plugin-barcodescanner": {
       "PACKAGE_NAME": "com.phonegap.helloworld"
     },
-    "cordova-plugin-qrscanner": {
-      "PACKAGE_NAME": "com.phonegap.helloworld"
-    },
-    "cordova-plugin-contacts": {
+    "com.pylonproducts.wifiwizard": {
       "PACKAGE_NAME": "com.phonegap.helloworld"
     }
   },
   "dependent_plugins": {
     "cordova-plugin-compat": {
-      "PACKAGE_NAME": "com.phonegap.helloworld"
-    },
-    "cordova-plugin-file": {
       "PACKAGE_NAME": "com.phonegap.helloworld"
     }
   }
