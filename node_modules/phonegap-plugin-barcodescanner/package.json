@@ -1,27 +1,27 @@
 {
-  "_from": "phonegap-plugin-barcodescanner@7.0.0",
-  "_id": "phonegap-plugin-barcodescanner@7.0.0",
+  "_from": "phonegap-plugin-barcodescanner@6.0.8",
+  "_id": "phonegap-plugin-barcodescanner@6.0.8",
   "_inBundle": false,
-  "_integrity": "sha1-OGjCE2FIn6Dt+GujHYe8G95pVUs=",
+  "_integrity": "sha1-2VxyuKrhaD9jD7wMFt1R7efuROs=",
   "_location": "/phonegap-plugin-barcodescanner",
   "_phantomChildren": {},
   "_requested": {
     "type": "version",
     "registry": true,
-    "raw": "phonegap-plugin-barcodescanner@7.0.0",
+    "raw": "phonegap-plugin-barcodescanner@6.0.8",
     "name": "phonegap-plugin-barcodescanner",
     "escapedName": "phonegap-plugin-barcodescanner",
-    "rawSpec": "7.0.0",
+    "rawSpec": "6.0.8",
     "saveSpec": null,
-    "fetchSpec": "7.0.0"
+    "fetchSpec": "6.0.8"
   },
   "_requiredBy": [
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/phonegap-plugin-barcodescanner/-/phonegap-plugin-barcodescanner-7.0.0.tgz",
-  "_shasum": "3868c21361489fa0edf86ba31d87bc1bde69554b",
-  "_spec": "phonegap-plugin-barcodescanner@7.0.0",
+  "_resolved": "https://registry.npmjs.org/phonegap-plugin-barcodescanner/-/phonegap-plugin-barcodescanner-6.0.8.tgz",
+  "_shasum": "d95c72b8aae1683f630fbc0c16dd51ede7ee44eb",
+  "_spec": "phonegap-plugin-barcodescanner@6.0.8",
   "_where": "D:\\vulnerable-phonegap",
   "author": {
     "name": "Adobe PhoneGap Team"
@@ -45,15 +45,14 @@
   "description": "You can use the BarcodeScanner plugin to scan different types of barcodes (using the device's camera) and get the metadata encoded in them for processing within your application.",
   "devDependencies": {
     "jasmine-node": "1.14.5",
-    "pluginpub": "^0.0.9"
+    "pluginpub": "^0.0.8"
   },
-  "engines": {
-    "cordovaDependencies": {
-      "7.0.0": {
-        "cordova-android": ">=6.3.0"
-      }
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
     }
-  },
+  ],
   "homepage": "https://github.com/phonegap/phonegap-plugin-barcodescanner#readme",
   "keywords": [
     "ecosystem:cordova",
@@ -75,5 +74,5 @@
   "scripts": {
     "test": "jasmine-node --color spec"
   },
-  "version": "7.0.0"
+  "version": "6.0.8"
 }

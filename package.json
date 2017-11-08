@@ -7,8 +7,8 @@
       "android"
     ],
     "plugins": {
-      "phonegap-plugin-barcodescanner": {},
-      "cordova-plugin-contacts": {}
+      "cordova-plugin-contacts": {},
+      "phonegap-plugin-barcodescanner": {}
     }
   },
   "dependencies": {
@@ -16,6 +16,6 @@
     "cordova-plugin-contacts": "^2.3.1",
     "emulator": "0.1.0",
     "file": "^0.2.2",
-    "phonegap-plugin-barcodescanner": "^7.0.0"
+    "phonegap-plugin-barcodescanner": "^6.0.8"
   }
 }
