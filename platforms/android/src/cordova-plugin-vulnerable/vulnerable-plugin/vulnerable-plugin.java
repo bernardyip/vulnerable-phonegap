@@ -1,0 +1,1 @@
+../../../../../../phonegap-plugin/src/android/vulnerable-plugin.java

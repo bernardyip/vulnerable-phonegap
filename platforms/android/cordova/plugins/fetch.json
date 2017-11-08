@@ -1,0 +1,10 @@
+{
+  "cordova-plugin-vulnerable": {
+    "source": {
+      "type": "local",
+      "path": "..\\phonegap-plugin"
+    },
+    "is_top_level": true,
+    "variables": {}
+  }
+}

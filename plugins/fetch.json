@@ -1,34 +1,42 @@
 {
-  "cordova-plugin-compat": {
-    "source": {
-      "type": "registry",
-      "id": "cordova-plugin-compat@^1.0.0"
+    "cordova-plugin-compat": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-compat@^1.0.0"
+        },
+        "is_top_level": false,
+        "variables": {}
     },
-    "is_top_level": false,
-    "variables": {}
-  },
-  "com.pylonproducts.wifiwizard": {
-    "source": {
-      "type": "registry",
-      "id": "wifiwizard"
+    "com.pylonproducts.wifiwizard": {
+        "source": {
+            "type": "registry",
+            "id": "wifiwizard"
+        },
+        "is_top_level": true,
+        "variables": {}
     },
-    "is_top_level": true,
-    "variables": {}
-  },
-  "cordova-plugin-contacts": {
-    "source": {
-      "type": "registry",
-      "id": "cordova-plugin-contacts"
+    "cordova-plugin-contacts": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-contacts"
+        },
+        "is_top_level": true,
+        "variables": {}
     },
-    "is_top_level": true,
-    "variables": {}
-  },
-  "phonegap-plugin-barcodescanner": {
-    "source": {
-      "type": "registry",
-      "id": "phonegap-plugin-barcodescanner@6.0.8"
+    "phonegap-plugin-barcodescanner": {
+        "source": {
+            "type": "registry",
+            "id": "phonegap-plugin-barcodescanner@6.0.8"
+        },
+        "is_top_level": true,
+        "variables": {}
     },
-    "is_top_level": true,
-    "variables": {}
-  }
+    "cordova-plugin-vulnerable": {
+        "source": {
+            "type": "local",
+            "path": "..\\phonegap-plugin"
+        },
+        "is_top_level": true,
+        "variables": {}
+    }
 }
