@@ -3,7 +3,7 @@
   "display": "standalone",
   "name": "Vulnerable Phonegap",
   "short_name": "Vulnerable Phonegap",
-  "version": "com.phonegap.helloworld",
+  "version": "sg.edu.sg.cs5231",
   "description": "Phonegap app that is vulnerable to xss",
   "author": "CS5231 Team",
   "icons": [],

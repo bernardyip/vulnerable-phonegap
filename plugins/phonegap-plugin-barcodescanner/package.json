@@ -22,7 +22,7 @@
   "_resolved": "https://registry.npmjs.org/phonegap-plugin-barcodescanner/-/phonegap-plugin-barcodescanner-7.0.0.tgz",
   "_shasum": "3868c21361489fa0edf86ba31d87bc1bde69554b",
   "_spec": "phonegap-plugin-barcodescanner@7.0.0",
-  "_where": "D:\\VulnerableApp",
+  "_where": "D:\\vulnerable-phonegap",
   "author": {
     "name": "Adobe PhoneGap Team"
   },

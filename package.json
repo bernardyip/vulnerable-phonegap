@@ -1,32 +1,21 @@
 {
   "name": "sg.edu.nus.cs5231",
   "version": "1.0.0",
-  "displayName": "helloworld",
+  "displayName": "vuln-app",
   "cordova": {
     "platforms": [
-      "browser",
       "android"
     ],
     "plugins": {
-      "cordova-plugin-inappbrowser": {},
       "phonegap-plugin-barcodescanner": {},
-      "cordova-plugin-qrscanner": {},
-      "cordova-plugin-contacts": {},
-      "cordova-plugin-file": {},
-      "com.pylonproducts.wifiwizard": {}
+      "cordova-plugin-contacts": {}
     }
   },
   "dependencies": {
-    "cordova-android": "^6.3.0",
-    "cordova-browser": "^5.0.1",
+    "cordova-android": "^5.2.1",
     "cordova-plugin-contacts": "^2.3.1",
-    "cordova-plugin-file": "^4.3.3",
-    "cordova-plugin-inappbrowser": "~1.7.1",
-    "cordova-plugin-qrscanner": "^2.5.0",
     "emulator": "0.1.0",
     "file": "^0.2.2",
-    "phonegap-plugin-barcodescanner": "^7.0.0",
-    "wifiwizard": "^0.2.11",
-    "com.pylonproducts.wifiwizard": "~0.2.11"
+    "phonegap-plugin-barcodescanner": "^7.0.0"
   }
 }

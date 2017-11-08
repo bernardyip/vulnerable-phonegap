@@ -8,27 +8,15 @@
   },
   "installed_plugins": {
     "cordova-plugin-contacts": {
-      "PACKAGE_NAME": "com.phonegap.helloworld"
-    },
-    "cordova-plugin-file": {
-      "PACKAGE_NAME": "com.phonegap.helloworld"
-    },
-    "cordova-plugin-inappbrowser": {
-      "PACKAGE_NAME": "com.phonegap.helloworld"
-    },
-    "cordova-plugin-qrscanner": {
-      "PACKAGE_NAME": "com.phonegap.helloworld"
+      "PACKAGE_NAME": "sg.edu.sg.cs5231"
     },
     "phonegap-plugin-barcodescanner": {
-      "PACKAGE_NAME": "com.phonegap.helloworld"
-    },
-    "com.pylonproducts.wifiwizard": {
-      "PACKAGE_NAME": "com.phonegap.helloworld"
+      "PACKAGE_NAME": "sg.edu.sg.cs5231"
     }
   },
   "dependent_plugins": {
     "cordova-plugin-compat": {
-      "PACKAGE_NAME": "com.phonegap.helloworld"
+      "PACKAGE_NAME": "sg.edu.sg.cs5231"
     }
   }
 }
