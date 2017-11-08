@@ -1,5 +1,5 @@
-function runplugin(name, success, error) {
-    var code = window.prompt("test:");
+function runplugin(success, error, name) {
+    success("Hello " + name + "!");
 }
 
 module.exports = {

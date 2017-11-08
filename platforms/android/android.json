@@ -17,11 +17,7 @@
                             "count": 1
                         },
                         {
-                            "xml": "<feature name=\"vulnerable-plugin\"><param name=\"android-package\" value=\"cordova-plugin-vulnerable.vulnerable-plugin\" /></feature>",
-                            "count": 1
-                        },
-                        {
-                            "xml": "<feature name=\"vulnerableplugin\"><param name=\"android-package\" value=\"cordova-plugin-vulnerable.vulnerableplugin\" /></feature>",
+                            "xml": "<feature name=\"VulnerablePlugin\"><param name=\"android-package\" value=\"cordova.plugin.vulnerable.VulnerablePlugin\" /></feature>",
                             "count": 1
                         }
                     ]
@@ -31,15 +27,15 @@
                 "parents": {
                     "/*": [
                         {
+                            "xml": "<uses-permission android:name=\"android.permission.READ_CONTACTS\" />",
+                            "count": 2
+                        },
+                        {
                             "xml": "<uses-permission android:name=\"android.permission.WRITE_CONTACTS\" />",
                             "count": 1
                         },
                         {
                             "xml": "<uses-permission android:name=\"android.permission.GET_ACCOUNTS\" />",
-                            "count": 1
-                        },
-                        {
-                            "xml": "<uses-permission android:name=\"android.permission.READ_CONTACTS\" />",
                             "count": 1
                         }
                     ],
@@ -72,13 +68,13 @@
         }
     },
     "installed_plugins": {
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "sg.edu.sg.cs5231"
+        },
         "cordova-plugin-contacts": {
             "PACKAGE_NAME": "sg.edu.sg.cs5231"
         },
         "phonegap-plugin-barcodescanner": {
-            "PACKAGE_NAME": "sg.edu.sg.cs5231"
-        },
-        "cordova-plugin-compat": {
             "PACKAGE_NAME": "sg.edu.sg.cs5231"
         },
         "cordova-plugin-vulnerable": {
@@ -182,9 +178,9 @@
         }
     ],
     "plugin_metadata": {
+        "cordova-plugin-compat": "1.2.0",
         "cordova-plugin-contacts": "2.3.1",
         "phonegap-plugin-barcodescanner": "6.0.8",
-        "cordova-plugin-compat": "1.2.0",
         "cordova-plugin-vulnerable": "0.0.1"
     }
 }

@@ -1,5 +1,5 @@
-cordova.define("cordova-plugin-vulnerable.VulnerablePluginSrc", function(require, exports, module) { function runplugin(name, success, error) {
-    var code = window.prompt("test:");
+cordova.define("cordova-plugin-vulnerable.VulnerablePluginSrc", function(require, exports, module) { function runplugin(success, error, name) {
+    success("Hello " + name + "!");
 }
 
 module.exports = {
