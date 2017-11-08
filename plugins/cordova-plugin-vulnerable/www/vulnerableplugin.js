@@ -1,4 +1,3 @@
-cordova.define("cordova-plugin-vulnerable.VulnerablePlugin", function(require, exports, module) {
 var exec = require('cordova/exec');
 
 module.exports = {
@@ -6,4 +5,3 @@ module.exports = {
         cordova.exec(successCallback, errorCallback, "VulnerablePlugin", "runplugin", [name]);
     }
 };
-});

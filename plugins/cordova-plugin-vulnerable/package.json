@@ -1,0 +1,30 @@
+{
+    "name": "VulnerablePlugin",
+    "version": "0.0.1",
+    "description": "A vulnerable phonegap plugin",
+    "cordova": {
+        "id": "cordova-plugin-vulnerable",
+        "platforms": [
+            "android",
+			"browser"
+        ]
+    },
+    "keywords": [
+        "ecosystem:cordova",
+        "cordova-android",
+		"cordova-browser"
+    ],
+    "author": "CS5231 Team",
+    "license": "None",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/bernardyip/phonegap-plugin.git"
+    },
+    "engines": {
+        "cordovaDependencies": {
+            "1.0.0": {
+                "cordova-android": "<6.0.0"
+            }
+        }
+    }
+}

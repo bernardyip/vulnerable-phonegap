@@ -106,6 +106,12 @@ module.exports = [
         "clobbers": [
             "cordova.plugins.vulnerableplugin"
         ]
+    },
+    {
+        "file": "plugins/cordova-plugin-vulnerable/src/browser/VulnerablePluginSrc.js",
+        "id": "cordova-plugin-vulnerable.VulnerablePluginSrc",
+        "pluginId": "cordova-plugin-vulnerable",
+        "runs": true
     }
 ];
 module.exports.metadata = 

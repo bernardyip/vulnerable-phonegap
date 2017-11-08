@@ -33,8 +33,9 @@
     },
     "cordova-plugin-vulnerable": {
         "source": {
-            "type": "local",
-            "path": "..\\phonegap-plugin"
+            "type": "git",
+            "url": "https://github.com/bernardyip/phonegap-plugin.git",
+            "subdir": "."
         },
         "is_top_level": true,
         "variables": {}
