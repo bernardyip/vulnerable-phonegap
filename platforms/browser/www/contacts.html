@@ -12,8 +12,11 @@
 			function onSuccess(contacts) {
 				var contactList = "";
 				for (var i = 0; i < contacts.length; i++) {
-				    for (var j = 0; j < contacts[i].phoneNumbers.length; j++)
 					contactList += contacts[i].displayName + "<br />";
+				    for (var j = 0; j < contacts[i].phoneNumbers.length; j++) {
+				        contactList += contacts[i].phoneNumbers[j].value + "<br />";
+				    }
+				    contactList += "<br />";
 				}
 				document.getElementById("text").innerHTML = contactList;
 			};
