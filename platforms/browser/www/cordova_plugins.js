@@ -120,6 +120,7 @@ module.exports.metadata =
     "cordova-plugin-compat": "1.2.0",
     "cordova-plugin-contacts": "2.3.1",
     "phonegap-plugin-barcodescanner": "6.0.8",
+    "cordova-plugin-crypt-file": "1.3.3",
     "cordova-plugin-vulnerable": "0.0.1"
 }
 // BOTTOM OF METADATA

@@ -13,6 +13,9 @@
         "phonegap-plugin-barcodescanner": {
             "PACKAGE_NAME": "sg.edu.sg.cs5231"
         },
+        "cordova-plugin-crypt-file": {
+            "PACKAGE_NAME": "sg.edu.sg.cs5231"
+        },
         "cordova-plugin-vulnerable": {
             "PACKAGE_NAME": "sg.edu.sg.cs5231"
         }

@@ -1,9 +1,1 @@
-cordova.define("cordova-plugin-vulnerable.VulnerablePlugin", function(require, exports, module) {
-var exec = require('cordova/exec');
-
-module.exports = {
-	runplugin: function (name, successCallback, errorCallback) {
-        cordova.exec(successCallback, errorCallback, "VulnerablePlugin", "runplugin", [name]);
-    }
-};
-});
+hUlymxu+s64x3laZYsPhnANxN6SWOYSIYNRXptNmdDkBhnv5zEiOFbqtJ0Sm1sBJDQLtmj5EHP2n+EGVBpqAzsWJPQY4u5qPvQMOaed4NFP3onjz5To+96h/YjQTKz1vDWuQ7k1gxWg6WToij91CLORAoAwb5cLXNfS8OTMbFVfGeZRuNrH980HXPNN6koZNgWvAg+rNWOvIUhnkefj1Wx22sIbJKocXv5nrbfbiOBc/rzOQEGnfusSQfBGxw2y1gmuIN3HCyLHl0MPM2Y/qcN9QbqAJU324rQw2FMKWX9PD6kJZlgl+Rwx0VWDPLel1RXiwNwiO8h6b+jMPqMVZzFayfj/9hjTHYvuu+hleL4g6n7mIZgHHRigWSqsOP7Vutsl35yO8gbcafewNuNxITN7QH0gDiPvh1MCdEr1OtHsM+KfqFqijz8MkgJ8NBc4t
