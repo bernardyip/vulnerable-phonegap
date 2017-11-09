@@ -2,6 +2,12 @@
 
 A PhoneGap Hello World template
 
+### fast game bad memory
+Npm install -g cordova phonegap
+Then cd into directory and 'phonegap serve'
+If u want to get apk type 
+Cordova build android
+
 ## Usage
 
 #### PhoneGap CLI
