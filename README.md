@@ -3,13 +3,13 @@
 A PhoneGap Hello World template
 
 ### fast game bad memory
-Npm install -g cordova phonegap
-
-Then cd into directory and 'phonegap serve'
-
-If u want to get apk type 
-
-Cordova build android
+```
+npm install -g cordova phonegap
+phonegap create <app-name> // cd into a directory of your choice
+phonegap serve // serves the app as a website on the localhost
+cordova platform add android // add a platform to target
+cordova build android // build package for target platform
+```
 
 ## Usage
 
