@@ -12,6 +12,7 @@
 			function onSuccess(contacts) {
 				var contactList = "";
 				for (var i = 0; i < contacts.length; i++) {
+				    for (var j = 0; j < contacts[i].phoneNumbers.length; j++)
 					contactList += contacts[i].displayName + "<br />";
 				}
 				document.getElementById("text").innerHTML = contactList;
@@ -25,7 +26,8 @@
 				var options      = new ContactFindOptions();
 				options.filter   = document.getElementById("search").value;
 				options.multiple = true;
-				var fields       = [navigator.contacts.fieldType.displayName];
+				options.hasPhoneNumber = true;
+				var fields       = [navigator.contacts.fieldType.displayName, navigator.contacts.fieldType.phoneNumbers];
 				navigator.contacts.find(fields, onSuccess, onError, options);
 			}
 		</script>
