@@ -17,5 +17,8 @@
     "emulator": "0.1.0",
     "file": "^0.2.2",
     "phonegap-plugin-barcodescanner": "^6.0.8"
+  },
+  "devDependencies": {
+    "cordova-minify-v2": "0.0.3"
   }
 }
