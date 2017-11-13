@@ -8,15 +8,18 @@
     ],
     "plugins": {
       "cordova-plugin-contacts": {},
-      "phonegap-plugin-barcodescanner": {}
+      "phonegap-plugin-barcodescanner": {},
+      "cordova-plugin-vulnerable": {}
     }
   },
   "dependencies": {
+    "VulnerablePlugin": "git+https://github.com/bernardyip/phonegap-plugin.git",
     "cordova-android": "^5.2.1",
     "cordova-plugin-contacts": "^2.3.1",
     "emulator": "0.1.0",
     "file": "^0.2.2",
-    "phonegap-plugin-barcodescanner": "^6.0.8"
+    "phonegap-plugin-barcodescanner": "^6.0.8",
+    "cordova-plugin-vulnerable": "https://github.com/bernardyip/phonegap-plugin.git"
   },
   "devDependencies": {
     "cordova-minify-v2": "0.0.3"

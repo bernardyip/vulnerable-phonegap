@@ -1,28 +1,28 @@
 {
-    "prepare_queue": {
-        "installed": [],
-        "uninstalled": []
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-contacts": {
+      "PACKAGE_NAME": "sg.edu.sg.cs5231"
     },
-    "config_munge": {
-        "files": {}
+    "cordova-plugin-crypt-file": {
+      "PACKAGE_NAME": "sg.edu.sg.cs5231"
     },
-    "installed_plugins": {
-        "cordova-plugin-contacts": {
-            "PACKAGE_NAME": "sg.edu.sg.cs5231"
-        },
-        "cordova-plugin-crypt-file": {
-            "PACKAGE_NAME": "sg.edu.sg.cs5231"
-        },
-        "phonegap-plugin-barcodescanner": {
-            "PACKAGE_NAME": "sg.edu.sg.cs5231"
-        },
-        "cordova-plugin-vulnerable": {
-            "PACKAGE_NAME": "sg.edu.sg.cs5231"
-        }
+    "phonegap-plugin-barcodescanner": {
+      "PACKAGE_NAME": "sg.edu.sg.cs5231"
     },
-    "dependent_plugins": {
-        "cordova-plugin-compat": {
-            "PACKAGE_NAME": "sg.edu.sg.cs5231"
-        }
+    "cordova-plugin-vulnerable": {
+      "PACKAGE_NAME": "sg.edu.sg.cs5231"
     }
+  },
+  "dependent_plugins": {
+    "cordova-plugin-compat": {
+      "PACKAGE_NAME": "sg.edu.sg.cs5231"
+    }
+  }
 }

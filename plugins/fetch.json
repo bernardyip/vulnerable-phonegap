@@ -1,51 +1,50 @@
 {
-    "cordova-plugin-compat": {
-        "source": {
-            "type": "registry",
-            "id": "cordova-plugin-compat@^1.0.0"
-        },
-        "is_top_level": false,
-        "variables": {}
+  "cordova-plugin-compat": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-compat@^1.0.0"
     },
-    "com.pylonproducts.wifiwizard": {
-        "source": {
-            "type": "registry",
-            "id": "wifiwizard"
-        },
-        "is_top_level": true,
-        "variables": {}
+    "is_top_level": false,
+    "variables": {}
+  },
+  "com.pylonproducts.wifiwizard": {
+    "source": {
+      "type": "registry",
+      "id": "wifiwizard"
     },
-    "cordova-plugin-contacts": {
-        "source": {
-            "type": "registry",
-            "id": "cordova-plugin-contacts"
-        },
-        "is_top_level": true,
-        "variables": {}
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-contacts": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-contacts"
     },
-    "phonegap-plugin-barcodescanner": {
-        "source": {
-            "type": "registry",
-            "id": "phonegap-plugin-barcodescanner@6.0.8"
-        },
-        "is_top_level": true,
-        "variables": {}
+    "is_top_level": true,
+    "variables": {}
+  },
+  "phonegap-plugin-barcodescanner": {
+    "source": {
+      "type": "registry",
+      "id": "phonegap-plugin-barcodescanner@6.0.8"
     },
-    "cordova-plugin-crypt-file": {
-        "source": {
-            "type": "registry",
-            "id": "cordova-plugin-crypt-file"
-        },
-        "is_top_level": true,
-        "variables": {}
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-crypt-file": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-crypt-file"
     },
-    "cordova-plugin-vulnerable": {
-        "source": {
-            "type": "git",
-            "url": "https://github.com/bernardyip/phonegap-plugin.git",
-            "subdir": "."
-        },
-        "is_top_level": true,
-        "variables": {}
-    }
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-vulnerable": {
+    "source": {
+      "type": "registry",
+      "id": "https://github.com/bernardyip/phonegap-plugin.git"
+    },
+    "is_top_level": true,
+    "variables": {}
+  }
 }
