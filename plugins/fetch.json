@@ -31,18 +31,18 @@
     "is_top_level": true,
     "variables": {}
   },
-  "cordova-plugin-crypt-file": {
-    "source": {
-      "type": "registry",
-      "id": "cordova-plugin-crypt-file"
-    },
-    "is_top_level": true,
-    "variables": {}
-  },
   "cordova-plugin-vulnerable": {
     "source": {
       "type": "registry",
       "id": "https://github.com/bernardyip/phonegap-plugin.git"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-crypt-file-ng": {
+    "source": {
+      "type": "registry",
+      "id": "https://github.com/qhng/cordova-plugin-crypt-file"
     },
     "is_top_level": true,
     "variables": {}

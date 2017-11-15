@@ -78,19 +78,19 @@ module.exports = [
         ]
     },
     {
-        "id": "phonegap-plugin-barcodescanner.BarcodeScanner",
-        "file": "plugins/phonegap-plugin-barcodescanner/www/barcodescanner.js",
-        "pluginId": "phonegap-plugin-barcodescanner",
-        "clobbers": [
-            "cordova.plugins.barcodeScanner"
-        ]
-    },
-    {
         "id": "cordova-plugin-vulnerable.VulnerablePlugin",
         "file": "plugins/cordova-plugin-vulnerable/www/vulnerableplugin.js",
         "pluginId": "cordova-plugin-vulnerable",
         "clobbers": [
             "cordova.plugins.vulnerableplugin"
+        ]
+    },
+    {
+        "id": "phonegap-plugin-barcodescanner.BarcodeScanner",
+        "file": "plugins/phonegap-plugin-barcodescanner/www/barcodescanner.js",
+        "pluginId": "phonegap-plugin-barcodescanner",
+        "clobbers": [
+            "cordova.plugins.barcodeScanner"
         ]
     }
 ];
@@ -99,9 +99,9 @@ module.exports.metadata =
 {
     "cordova-plugin-compat": "1.2.0",
     "cordova-plugin-contacts": "2.3.1",
-    "cordova-plugin-crypt-file": "1.3.3",
-    "phonegap-plugin-barcodescanner": "6.0.8",
-    "cordova-plugin-vulnerable": "0.0.1"
+    "cordova-plugin-crypt-file-ng": "0.1.0",
+    "cordova-plugin-vulnerable": "0.0.1",
+    "phonegap-plugin-barcodescanner": "6.0.8"
 };
 // BOTTOM OF METADATA
 });

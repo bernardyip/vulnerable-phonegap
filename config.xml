@@ -25,8 +25,8 @@
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
     </platform>
-    <engine name="android" spec="^5.2.1" />
     <plugin name="cordova-plugin-contacts" spec="^2.3.1" />
     <plugin name="phonegap-plugin-barcodescanner" spec="^6.0.8" />
     <plugin name="cordova-plugin-vulnerable" spec="https://github.com/bernardyip/phonegap-plugin.git" />
+    <plugin name="cordova-plugin-crypt-file-ng" spec="git+https://github.com/qhng/cordova-plugin-crypt-file.git" />
 </widget>

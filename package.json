@@ -3,23 +3,23 @@
   "version": "1.0.0",
   "displayName": "vuln-app",
   "cordova": {
-    "platforms": [
-      "android"
-    ],
+    "platforms": [],
     "plugins": {
       "cordova-plugin-contacts": {},
       "phonegap-plugin-barcodescanner": {},
-      "cordova-plugin-vulnerable": {}
+      "cordova-plugin-vulnerable": {},
+      "cordova-plugin-crypt-file-ng": {}
     }
   },
   "dependencies": {
     "VulnerablePlugin": "git+https://github.com/bernardyip/phonegap-plugin.git",
     "cordova-android": "^5.2.1",
     "cordova-plugin-contacts": "^2.3.1",
+    "cordova-plugin-crypt-file-ng": "git+https://github.com/qhng/cordova-plugin-crypt-file.git",
+    "cordova-plugin-vulnerable": "https://github.com/bernardyip/phonegap-plugin.git",
     "emulator": "0.1.0",
     "file": "^0.2.2",
-    "phonegap-plugin-barcodescanner": "^6.0.8",
-    "cordova-plugin-vulnerable": "https://github.com/bernardyip/phonegap-plugin.git"
+    "phonegap-plugin-barcodescanner": "^6.0.8"
   },
   "devDependencies": {
     "cordova-minify-obfuscate": "git+https://github.com/yeejfe/cordova-minify-obfuscate.git",

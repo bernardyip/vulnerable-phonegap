@@ -1,0 +1,47 @@
+{
+  "_from": "git+https://github.com/qhng/cordova-plugin-crypt-file.git",
+  "_id": "cordova-plugin-crypt-file-ng@0.1.0",
+  "_inBundle": false,
+  "_integrity": "sha1-BpV0SUv9v1neMqOxLBXTXx5NcLI=",
+  "_location": "/cordova-plugin-crypt-file-ng",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "https://github.com/qhng/cordova-plugin-crypt-file",
+    "rawSpec": "https://github.com/qhng/cordova-plugin-crypt-file",
+    "saveSpec": "git+https://github.com/qhng/cordova-plugin-crypt-file.git",
+    "fetchSpec": "https://github.com/qhng/cordova-plugin-crypt-file.git",
+    "gitCommittish": "master"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/qhng/cordova-plugin-crypt-file.git#61807613c576c7c78b8a94b6c85f997db016f680",
+  "_spec": "https://github.com/qhng/cordova-plugin-crypt-file",
+  "_where": "C:\\Users\\xefro\\Desktop\\cs5231-P\\github\\vulnerable-phonegap",
+  "author": {
+    "name": "tkyaji, qhng"
+  },
+  "bugs": {
+    "url": "https://github.com/qhng/cordova-plugin-crypt-file/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "node-rsa": "0.4.2"
+  },
+  "deprecated": false,
+  "description": "This plugin to encrypt/decrypt the source files.",
+  "homepage": "https://github.com/qhng/cordova-plugin-crypt-file#readme",
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "license": "Apache version 2.0",
+  "name": "cordova-plugin-crypt-file-ng",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qhng/cordova-plugin-crypt-file.git"
+  },
+  "version": "0.1.0"
+}
